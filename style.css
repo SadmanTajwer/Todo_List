@@ -52,6 +52,10 @@ input{
     font-weight: 14px;
 }
 
+.row:hover{
+    background: #F0FDF4;
+}
+
 button{
     border: none;
     outline: none0;
@@ -60,6 +64,11 @@ button{
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover{
+    background: linear-gradient(135deg, #153677, #4e085f);;
     border-radius: 40px;
 }
 
@@ -93,6 +102,10 @@ ul li.checked{
 
 ul li.checked::before{
     background-image: url(images/checked.png);
+}
+
+ul li:hover{
+    background-color: #F8FAFC;
 }
 
 ul li span{
